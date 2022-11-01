@@ -1,0 +1,87 @@
+* {
+
+    box-sizing: border-box;
+  }
+#title {
+    background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 2cm;
+
+}
+#quote-title:hover{
+    color: lightsteelblue;
+   
+  }
+.quote {
+  
+    font-size: x-large;
+    border-style: double;
+    background-image: url(https://colorfulcoloradocollective.com/wp-content/uploads/2022/01/image0-2-scaled.jpeg)!important;
+    color: white;
+}
+main {
+    font-size: 16px;
+    font-family: emoji;
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-gap: 2em;
+    margin: 30px;
+    padding: 20px;
+
+  }
+  h1{
+    font-size: 32px;
+    text-decoration: underline;
+  }
+
+  
+  .rmnp-image {
+    width: 500px;
+    height: 500px;
+  }
+  .breck-image{
+    width: 500px;
+    height: 500px; 
+  }
+  .tellu-image {
+    width: 500px;
+    height: 500px; 
+  }
+  .great-image {
+    width: 500px;
+    height: 500px; 
+  }
+  .purple {
+    background-color: mediumorchid;
+  }
+  
+  .red {
+    background-color: cornflowerblue;
+  }
+  h4 {
+    color: darkslategrey;
+    font-style: italic;
+  }
+  
+  aside {
+    background-color: #a2b4da;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: xx-large;
+    color: whitesmoke;
+    border: black;
+  }
+
+  #side-bar {
+    float: left;
+    width: 20%;
+    border-style: double;
+  }
+  
+  
