@@ -3,18 +3,23 @@
     box-sizing: border-box;
   }
 #title {
+    
     background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
     color: transparent;
     font-size: 2cm;
-
+    
 }
+
+
 #quote-title:hover{
-    color: lightsteelblue;
+    color: darkolivegreen;
    
   }
+
+  
 .quote {
   
     font-size: x-large;
@@ -67,7 +72,9 @@ main {
     color: darkslategrey;
     font-style: italic;
   }
-  
+  p {
+    font-size: .75cm;
+  }
   aside {
     background-color: #a2b4da;
     display: flex;
@@ -82,6 +89,7 @@ main {
     float: left;
     width: 20%;
     border-style: double;
+  
   }
   
-  
+
